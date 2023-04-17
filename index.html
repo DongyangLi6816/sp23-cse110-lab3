@@ -59,8 +59,9 @@
     <section>
         <h2>Project Work (Week 3 - Week 4)</h2>
         <p>
+            <img src = "Magic8ball.jpg" alt ="Magic 8 Ball"/>
             <ul>
-                <li>Will create some form of a Magic 8 Ball (can be creative with it just sticking to the rough idea of something that predicts fortunes like a Magic 8 Ball)</li> <img src = "Magic8ball.jpg" alt ="Magic 8 Ball" sizes = "200px, 50vx"/>
+                <li>Will create some form of a Magic 8 Ball (can be creative with it just sticking to the rough idea of something that predicts fortunes like a Magic 8 Ball)</li>
                 <li>Week 3 is for Prototyping and getting a rough version produced</li>
                 <li>Aim to experiment with it through any resources, including Chat GPT, to develop and interesting app</li>
                 <li>Prototypes need to be functional</li>
@@ -124,14 +125,17 @@
             <input type="date" name="startdate" />
             </label>
             <br/>
-            <label for="gender-choice">Choose your gender:</label>
-            <input list="genders" id="gender" name="gender">
-            <datalist id="genders">
-                <option value="Male">
-                <option value="Female">
-                <option value="Others">
-                <option value="Rather not specified">
-            </datalist>
+            <label>
+                Choose a related language:
+                <input list="relatedlangs" name="related" />
+                <datalist id="relatedlangs">
+                  <option value="Python"></option>
+                  <option value="Java" ></option>
+                  <option value="C#" ></option>
+                  <option value="JavaScript" ></option>
+                  <option value="PHP" ></option>
+                </datalist>
+            </label>
             <br/>
             <label for="age-select">Choose a age range:</label>
             <select name="age" id="age-select">
@@ -145,10 +149,10 @@
             <button name="button">Submit</button>
         </fieldset>
     </form>
+    <footer>
+        <p>© 2023 Dongyang</p>
+    </footer>
   </body>
-<footer>
-    <p>© 2023 Dongyang</p>
-</footer>
 <div class="not used">
 </div>
 <span></span>
