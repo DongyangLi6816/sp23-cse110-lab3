@@ -1,0 +1,172 @@
+/* General CSS Topics */
+
+/* Comment */
+/* This is a CSS comment */
+
+/* Color */
+body {
+    color: rgb(33, 33, 33);
+    background-color: #f5f5f5;
+  }
+  
+  h1 {
+    color: hsl(210, 100%, 50%);
+  }
+  
+  nav a {
+    color: orange;
+  }
+  
+  /* Background */
+  header {
+    background-color: rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Unit */
+  h1 {
+    font-size: 1cm;
+  }
+  h2 {
+    font-size: 5mm;
+  }
+  h3{
+    font-size: 15px;
+  }
+  
+  section {
+    padding: 1em 2em;
+    margin-bottom: 3em;
+  }
+  
+  footer {
+    padding: 1vh 2vw;
+  }
+  
+  /* Box Model */
+  /* Margin */
+  /* long hand */
+  nav ul {
+    margin-top: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+  }
+
+  section {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  /* short hand */
+  nav li {
+    margin: 0 10px;
+  }
+  
+  /* Padding */
+  /* long hand */
+  nav a {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  /* short hand */
+  form fieldset {
+    padding: 1em 2em;
+  }
+  
+  /* Borders */
+  /* long hand */
+  section {
+    border-style: solid;
+    border-color: #ddd;
+    border-width: 1px;
+    border-radius: 5px;
+  }
+  /* short hand */
+  section {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  /* Text */
+  a {
+    text-decoration: none;
+  }
+  
+  h2 {
+    text-align: center;
+  }
+  /* Display */
+  nav {
+    display: inline-block;
+  }
+  
+  .not {
+    display: none;
+  }
+  
+  /* Sizing */
+  img {
+    height: 50px;
+    width: 50px;
+
+  }
+  
+  section {
+    max-width: 900px;
+    min-width: 320px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  /* Position */
+  nav {
+    position: relative;
+  }
+  
+  footer {
+    position: static;
+  }
+  
+  /* Pseudo-class */
+  a:hover {
+    color: #000;
+    text-decoration: underline;
+  }
+  
+  button:active {
+    background-color: #ccc;
+  }
+  
+  /* Layouts */
+  /* Flexbox */
+  nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  
+  /* Grid */
+  form fieldset {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto auto auto;
+    grid-gap: 1em;
+  }
+  
+  /* Responsiveness */
+  @media (max-width: 600px) {
+    nav ul {
+      flex-direction: column;
+    }
+  }
+  
+  /* Fonts */
+  @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap');
+  
+  body {
+    font-family: 'Roboto', sans-serif;
+  }
+  
