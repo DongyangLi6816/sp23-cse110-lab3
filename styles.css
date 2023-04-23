@@ -169,4 +169,66 @@ body {
   body {
     font-family: 'Roboto', sans-serif;
   }
+
+  /* Class Selector */
+.menu {
+    font-size: 1.2em;
+  }
+  
+  /* ID Selector */
+  #language {
+    background-color: #fff;
+  }
+  
+  /* Universal Selector */
+  * {
+    box-sizing: border-box;
+  }
+  
+  /* Element Selector */
+  p {
+    line-height: 1.5;
+  }
+  
+  /* Attribute Selector */
+  input[type="text"] {
+    font-size: 1em;
+  }
+  
+  /* Pseudo-class Selector */
+  button:hover {
+    background-color: #ddd;
+  }
+  
+  /* Selector List */
+  h1, h2, h3 {
+    font-weight: bold;
+  }
+  
+  /* Combinators */
+  /* Descendant Combinator */
+  nav ul li {
+    list-style-type: none;
+  }
+  
+  /* Child Combinator */
+  nav > ul {
+    padding: 0;
+  }
+  
+  /* General Sibling Combinator */
+  h1 ~ p {
+    font-size: 1.1em;
+  }
+  
+  /* Adjacent Sibling Combinator */
+  h2 + p {
+    font-style: italic;
+  }
+  
+  /* Combining Two Selectors */
+  section.details {
+    margin-bottom: 1em;
+  }
+  
   
