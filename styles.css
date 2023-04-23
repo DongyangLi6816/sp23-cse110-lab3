@@ -1,0 +1,152 @@
+/* Comments */
+/* This comment helps make the CSS easier to read */
+
+/* Color */
+body {
+    color: orange;
+  }
+  
+  h1 {
+    color: rgb(255, 0, 0);
+  }
+  
+  h2 {
+    color: #FFA500;
+  }
+  
+  h3 {
+    color: hsl(240, 100%, 50%);
+  }
+  
+  /* Background */
+  header {
+    background-color: rgba(0, 0, 255, 0.5);
+  }
+  
+  /* Units */
+  .menu ul {
+    font-size: 2rem;
+  }
+  
+  h1 {
+    font-size: 48px;
+  }
+  
+  h2 {
+    font-size: 1.5em;
+  }
+  
+  h3 {
+    line-height: 3.5vh;
+  }
+  
+  section {
+    padding-left: 5vw;
+    padding-right: 5vw;
+  }
+  
+  /* Box Model */
+  header {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 10px 20px 10px 20px;
+  }
+  
+  nav {
+    margin: 20px;
+    padding: 10px;
+  }
+  
+  /* Borders */
+  header {
+    border-style: solid;
+    border-color: #000;
+    border-width: 2px;
+    border-radius: 10px;
+  }
+  
+  /* Text */
+  a {
+    color: blue;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  .term {
+    color: red;
+    text-align: center;
+  }
+  
+  /* Display */
+  .not {
+    display: none;
+  }
+  
+  .used {
+    display: inline-block;
+  }
+  
+  /* Sizing */
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  /* Position */
+  header {
+    position: relative;
+  }
+  
+  form {
+    position: sticky;
+    top: 10px;
+  }
+  
+  /* Pseudo-class */
+  a:hover {
+    color: purple;
+  }
+  
+  button:active {
+    background-color: red;
+  }
+  
+  /* Layouts */
+  
+  /* Flexbox */
+  .menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .menu li {
+    list-style: none;
+  }
+  
+  /* Grid */
+  form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+    grid-auto-rows: minmax(50px, auto);
+  }
+  
+  /* Responsiveness */
+  @media screen and (max-width: 600px) {
+    body {
+      font-size: 14px;
+    }
+  }
+  
+  /* Fonts */
+  @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+  
+  body {
+    font-family: 'Roboto', sans-serif;
+  }
